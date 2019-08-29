@@ -1,0 +1,46 @@
+#mainDIV {
+  width: 1559px;
+  height: 2000px;
+  animation name: cricket;
+  animation duration: 10s;
+  animation: cricket 10s infinite;
+}
+
+#homeDIV {
+  width: 1559px;
+  height: 2000px;
+  animation name: cricket1;
+  animation duration: 10s;
+  animation: cricket1 10s infinite;
+}
+
+
+
+@keyframes cricket {
+  from {background-image:url("../images/cricketball.jpg");}
+  to {background-image:url("../images/academy.jpg");}
+}
+
+@keyframes cricket1 {
+  from {background-image:url("../images/bat.jpg");}
+  to {background-image:url("../images/ball.png");}
+}
+
+
+/* Style for Header */
+h3{
+  color: white;
+  font-style: normal;
+}
+
+/*Style for Body */
+body{
+  color: white;
+  font-style: normal;
+  font-family: Times New Roman;
+}
+
+.carousel-inner img {
+    width: 100%;
+    height: 100%;
+  }
